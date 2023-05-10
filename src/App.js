@@ -8,7 +8,8 @@ import BookingDetails from './Homepage/BookingDetails' // last booking details
 import axios from "axios" //fetching Api data
 import { ToastContainer, toast } from "react-toastify"; // for floating warning and comfirmation
 import "react-toastify/dist/ReactToastify.css";
-const URL = 'http://localhost:8080/v1/api/' //backend url
+// const URL = 'http://localhost:8080/v1/api/' //backend url
+const URL = "https://mern-bms-backend-server.onrender.com/v1/api/"
 
 
 function App() {
